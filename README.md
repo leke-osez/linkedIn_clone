@@ -31,7 +31,7 @@ Authentication,Server Side Rendering(SSR), CRUD operations,routing, Storage etc.
    __MONGODB_URL__ is your MongoDB URL <br>
    __MONGODB_DB__ is your MongoDB name <br>
    __JWT_SECRET__ is your unique generated key <br>
-   __NEXTAUTH_URL__ is your index page, if using your local machine set it to http://locAlhost:__<PORT>__
+   __NEXTAUTH_URL__ is your index page, if using your local machine set it to the URL and PORT your Next server is currently on.
 7. now RUN `npm run dev`
 
 That is all you need to run the project 
