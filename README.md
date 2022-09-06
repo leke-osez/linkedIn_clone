@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LinkedIn Clone
 
-## Getting Started
+## DESCRIPTION
+This app was built to implement linkedIn UI with little backend features
+The linkedin clone was built with: __NextJS__, MongoDB __TailwindCSS.
+It leverages on NextJS simplicity .
 
-First, run the development server:
+NextJS handles all the client-side functionalities like:
+State Management, UI rendering,routing, Caching and so on.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+NextJS also handles the server-side developments, such as:
+Authentication,Server Side Rendering(SSR), CRUD operations,routing, Storage etc. basically all operations you would normally do on the backend which is super-awesome!!!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## FEATURES
+- Authentication (Sign in and Sign up) with email and password.
+- Post creation and deletion.
+- Like a post feature
+- Profile update - set profile picture, bio and name 
+- Settings feature - set theme mode (dark or light),
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## INSTALLATION GUIDE
+1. Go ahead and clone this repo to your local machine.
+2. Make sure you have node installed.
+3. On your command line type and run `npm install` to install all dependencies.
+4. This project uses some environment variables so create a __.env__ file
+5. When done creating your .env file, you environment variables would contain your Firebase configurations
+   Create a new project on Firebase, the instruction for that is out of the scope of this, but the instrucitons firebase gives in the doc is pretty easy.
+6. Now in your __.env__ file; ADD the following variables <br>
+   __GOOGLE_CLIENT_ID__ is your Google ClientId <br>
+   __GOOGLE_CLIENT_ID__ is your Google Client Secret<br>
+   __MONGODB_URL__ is your MongoDB URL <br>
+   __MONGODB_DB__ is your MongoDB name <br>
+   __JWT_SECRET__ is your unique generated key <br>
+   __NEXTAUTH_URL__ is your index page, if using your local machine set it to http://locAlhost:__<PORT>__
+7. now RUN `npm run dev`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+That is all you need to run the project 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+   
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
