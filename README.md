@@ -1,4 +1,10 @@
 # LinkedIn Clone
+<p align="center" style = "float:left">
+  <img src="public/landing.png"  height="350" title="hover text">
+</p>
+
+## SEE DEMO VIA THIS LINK
+https://linkedin-beta-six.vercel.app/
 
 ## DESCRIPTION
 This app was built to implement linkedIn UI with little backend features
